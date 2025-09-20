@@ -1,8 +1,6 @@
 # 🚀 WMON Swap Bot (Node.js + Ethers.js)
 
-Bot sederhana untuk melakukan **swap otomatis** antara WMON ↔ Token (ERC20) melalui **Bean Exchange Router**.  
-Dibuat dengan **Node.js**, **ethers.js**, dan **chalk** untuk CLI interaktif yang berwarna.
-
+Bot sederhana untuk melakukan **swap otomatis** antara WMON ↔ Token (ERC20) 
 ---
 
 ## ✨ Fitur
@@ -33,13 +31,18 @@ USDC 0xf817257fed379853cDe0fa4F97AB987181B1E5Ea
 ## ⚙️ Instalasi
 1. Clone repo:
    ```bash
-   git clone https://github.com/username/wmon-swap-bot.git
-   cd wmon-swap-bot
+   git clone https://github.com/panjibae/BeanMoon.git
+   
+
+gunakan ethers 5 jika perlu
+
 
 npm install ethers dotenv chalk@4
 
 .env
+
 PRIVATE_KEY=0xPRIVATEKEYMU
+
 RPC_URL=https://rpc-url-kamu
 
 🛡 Disclaimer
